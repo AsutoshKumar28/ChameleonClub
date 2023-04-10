@@ -1,0 +1,47 @@
+.heading{
+    text-align: center;   
+    font-weight: 400;
+}
+.heading1{
+    font-size: 100px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.heading2{
+    font-size: 29px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.section1{
+   
+    height: 100vh;
+    background-size: "cover";
+    width: 100%;
+ }
+.back-image{
+    max-width: 100%;
+    /* margin-top: -5%; */
+    background-color: transparent;
+}
+.btn{
+    background-color:  #F5F5F5;
+    color: black;
+    margin-left: 50%;
+    width: fit-content;
+    }
+    .heading3{
+        background-image: url("../Images/Background.svg");
+    }
+/* ***************SECTION FIVE******************* */
+.secFivcontainer{
+    display: flex;
+}
+.secFivcontainer1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.secFivcontainer2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 400px;
+}
