@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Home.css"
-import SecFivOne from "./HomeST"
-import SectionThree from "../Home/HomeSectionThree"
+import SecFiv from "../Home/Sectionfive"
+// import SectionThree from "./SectionThree/SectionFiveOne.svg"
 import video from "../videos/TCC_Website_Banner.mp4"
-// import SecFivOne from "../Images/SectionFiveOne.svg"
+// import SecF from "../Images/SectionFiveOne.svg"
 const Home = () => {
   return (
     <div>
@@ -15,34 +15,20 @@ const Home = () => {
      <div className='btn' >Join Now!</div>  
      </div>
     </section>
+    {/* *******************SECTION 2***************** */}
+
+
     {/* *******************Section 3 ****************** */}
 
-    <SectionThree/>
+    {/* <SectionThree/> */}
 
 {/* **********************SECTION 4 ******************* */}
-{/* <SecFivOne/> */}
+      {/* <SecFivOne/> */}
 
 
     {/* ************** SECTION FIVE  ****************** */}
     <section className="section5">
-      {/* <p id='heading5'>TCC: More Than Just a Social Network</p> */}
-      {/* <div className="secFivcontainer">
-        <div>
-        <img src={SecFivOne} alt="back" className="back-image" />
-        <p className='secFivcontainer1' >Chameleoning Made Easy</p>
-        <p className='secFivcontainer2'>We don't just accept differences, we celebrate them like a chameleon changing colors!</p>
-        </div> */}
-        {/* <div>
-        <img src={SecFivOne} alt="back" className="back-image" />
-        <p className='secFivcontainer1' >Chameleoning Made Easy</p>
-        <p className='secFivcontainer2'>We don't just accept differences, we celebrate them like a chameleon changing colors!</p>
-        </div>
-        <div>
-        <img src={SecFivOne} alt="back" className="back-image" />
-        <p className='secFivcontainer1' >Chameleoning Made Easy</p>
-        <p className='secFivcontainer2'>We don't just accept differences, we celebrate them like a chameleon changing colors!</p>
-        </div> */}
-      {/* </div> */}
+    <SecFiv/>
     </section>
     </div>
   )
